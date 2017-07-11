@@ -7,17 +7,26 @@
   -moz-box-shadow: 0px 1px 5px #a8a8a8;
   box-shadow: 0px 1px 5px #a8a8a8;
   margin-bottom: 40px;
-}
 
-@media only screen and (max-width: 1219px)
-superb-slider-g…post.html:3711
-.post {
-    margin-left: 5px;
+  padding: 0px;
 }
 
 .post {
     padding: 12px 0;
     padding: 48px 66px 50px;
+}
+
+@media (max-width: 767px) {
+.post {
+    padding: 10px 10px 10px;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+}
+@media (max-width: 1219px) {
+  .post {
+      margin-left: 5px;
+  }
 }
 
 .post-header, .post-footer {
